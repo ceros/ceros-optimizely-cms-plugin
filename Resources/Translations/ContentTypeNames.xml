@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<languages>
+    <language name="English" id="en">
+        <contenttypes>
+            <cerosexperienceblock>
+                <description>Used to embed a Ceros experience.</description>
+                <name>Ceros Experience</name>
+            </cerosexperienceblock>
+        </contenttypes>
+    </language>
+</languages>

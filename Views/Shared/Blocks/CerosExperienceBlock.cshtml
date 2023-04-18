@@ -1,0 +1,16 @@
+@model CerosExperienceBlock
+
+@if (!string.IsNullOrEmpty(Model.CerosExperienceURL))
+{
+    @if (string.IsNullOrEmpty(Model.IFrameHtml))
+    {
+        <p>Unable to embed Ceros Experience, but you can <a target="_blank" href="@Model.CerosExperienceURL">view it here.</a>
+        </p>
+    }
+    else
+    {
+        <div class="ceros-experience">
+            @Html.Raw(Model.IFrameHtml)
+        </div>
+    }
+}
