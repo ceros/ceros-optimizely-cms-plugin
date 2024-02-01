@@ -1,8 +1,4 @@
 using System.ComponentModel.DataAnnotations;
-using EPiServer.Core;
-using EPiServer.DataAbstraction;
-using EPiServer.DataAnnotations;
-using EPiServer.Framework.DataAnnotations;
 
 namespace CerosExperienceAddon.Models.Blocks
 {
