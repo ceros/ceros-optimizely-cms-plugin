@@ -9,10 +9,34 @@ The Ceros Experience Addon provides seamless integration between your Optimizely
 - Maintain full control over your Ceros experiences within your CMS.
 
 ## Installation
-1. Download the CerosExperienceAddon code from [this link](https://github.com/ceros/ceros-optimizely-cms-plugin).
-2. Copy and paste code from the plugin directory into your Optimizely CMS 12 project.
-3. Restart Optimizely CMS.
+
+1. Install the CerosExperienceAddon package through NuGet Package Manager.
+    - For this, you can use the NuGet Package Manager Console with the command: `Install-Package Ceros.Experience.Addon`.
+2. Ensure that the plugin code is properly integrated into your Optimizely CMS 12 project.
+3. Restart Optimizely CMS for the changes to take effect.
 
 ## Usage
-1. Open any page and add a new Ceros Experience block. Paste in a link to a published Ceros experience and then click "Create".
-2. Publish the page and notice that the Ceros experience is now embedded.
+
+### Embedding a Ceros Experience
+
+1. In Optimizely CMS, navigate to the page where you want to add the Ceros experience.
+2. Add a new block of the type 'Ceros Experience'.
+3. In the new Ceros Experience block, paste the published link to your Ceros experience. This link is obtained from the Ceros Studio after you publish an experience.
+4. Click "Create" or "Update" to save the changes to the block.
+5. Publish the page within Optimizely CMS. The Ceros experience will be automatically embedded based on the provided link.
+
+### Updating an Existing Ceros Experience
+
+- To update an existing Ceros experience, simply navigate to the Ceros Experience block on your page and update the link with a new published Ceros experience link.
+- Save and publish the page to reflect the changes.
+
+## Additional Information
+
+- This plugin was tested using the Optimizely example project 'Alloy' to ensure compatibility and proper functionality.
+- The primary user flow involves creating a new custom block of the type 'Ceros Experience', inserting the published link from Ceros Studio, and embedding it directly into an Optimizely CMS page without any additional steps for embed code retrieval.
+
+## Support
+
+- For support or any queries related to the Ceros Experience Addon, please refer to the [GitHub repository](https://github.com/ceros/ceros-optimizely-cms-plugin).
+
+This user guide is intended for use by users who want to understand the primary user flows and functionalities of the Ceros Experience Addon for Optimizely CMS 12.
